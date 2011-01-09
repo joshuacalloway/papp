@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+   <TableLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+      <TableRow>
+        <TextView android:id="@+id/match1_win_player1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="false"
+                  android:text="League Standings"/>
+        <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="false"
+           android:text=" and "/>
+        <TextView android:id="@+id/match1_win_player2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="false"
+                  android:text=""/>
+      </TableRow>
+      <TableRow>
+        <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="false"
+           android:text="Defeats"/>
+      </TableRow>
+      <TableRow>
+        <TextView android:id="@+id/match1_lose_player1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="false"
+                  android:text=""/>
+        <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="false"
+           android:text=" and "/>
+        <TextView android:id="@+id/match1_lose_player2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="false"
+                  android:text=""/>
+      </TableRow>
+      <TableRow>
+        <TextView android:id="@+id/match1_score"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="false"
+                  android:text=""/>
+      </TableRow>
+    </TableLayout>
+</LinearLayout>

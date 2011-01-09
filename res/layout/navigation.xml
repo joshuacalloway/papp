@@ -1,0 +1,47 @@
+<merge 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--  images of android-provided icons: -->
+	<!--  http://www.darshancomputing.com/android/1.5-drawables.html -->
+
+	<TextView android:id="@+id/nextmatch"
+						android:layout_height="70dip" 
+						android:layout_width="80dip"	 
+						android:text="Next Match"
+						android:textSize="10dip" 
+						android:textStyle="bold" 
+						android:textColor="@drawable/text_states" 
+						android:clickable="true"
+						android:focusable="true" 
+						android:background="@drawable/backgound_states" 
+						android:drawableTop="@drawable/papp_tabc" 
+						android:gravity="center"
+						android:layout_weight="1"/>
+        
+	<TextView android:id="@+id/teamstandings"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Team Standings"
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/papp_taba" 
+        android:gravity="center" 
+        android:layout_weight="1"/>
+
+	<TextView android:id="@+id/yourteam"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Your Team"
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/papp_tabb" 
+        android:gravity="center"
+        android:layout_weight="1"/>
+</merge>

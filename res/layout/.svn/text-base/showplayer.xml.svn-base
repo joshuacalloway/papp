@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+							xmlns:pax="http://schemas.android.com/apk/res/com.papp"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<LinearLayout 
+		 android:orientation="vertical"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_weight="1"
+		 android:gravity="center">
+
+		<ImageView
+			 android:id="@+id/player_pic"    
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:maxWidth="10px"
+			 android:maxHeight="10px"/>
+		<TextView android:id="@+id/name2"
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_marginLeft="5dp"/>
+		<TextView android:id="@+id/team"
+							android:layout_width="300px"
+							android:layout_height="100px"
+							android:layout_alignParentRight="false"
+							android:text="fromres"/>
+		<ScrollView 
+			 android:layout_width="wrap_content"
+			 android:layout_height="200px">
+			<TableLayout android:layout_width="wrap_content"
+									 android:layout_height="wrap_content">
+				<TableRow>
+					<TextView android:id="@+id/match1_win_player1"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_alignParentRight="false"
+										android:text=""/>
+					<TextView 
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:layout_alignParentRight="false"
+						 android:text=" and "/>
+					<TextView android:id="@+id/match1_win_player2"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_alignParentRight="false"
+										android:text=""/>
+				</TableRow>
+				<TableRow>
+					<TextView 
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:layout_alignParentRight="false"
+						 android:text="Defeats"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:id="@+id/match1_lose_player1"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_alignParentRight="false"
+										android:text=""/>
+					<TextView 
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:layout_alignParentRight="false"
+						 android:text=" and "/>
+					<TextView android:id="@+id/match1_lose_player2"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_alignParentRight="false"
+										android:text=""/>
+				</TableRow>
+				<TableRow>
+					<TextView android:id="@+id/match1_score"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_alignParentRight="false"
+										android:text=""/>
+				</TableRow>
+			</TableLayout>
+		</ScrollView>
+	</LinearLayout>
+
+	<com.papp.Toolbar
+	   android:layout_width="fill_parent"
+		 pax:tab_id="searchplayer"
+	   android:layout_height="70dip"/>
+
+</LinearLayout>
+            

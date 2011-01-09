@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"         
+			android:orientation="vertical"         
+			android:layout_width="fill_parent"         
+			android:layout_height="fill_parent"         
+			android:paddingLeft="8dp"         
+			android:paddingRight="8dp">     
+	<!-- TOP SECTION - LISTVIEW NOT IN THIS PART -->
+	<TextView 
+				android:id="@+id/showteam_label"               
+				android:layout_width="fill_parent"               
+				android:layout_height="wrap_content"               
+				android:text="From res"
+				/> 
+	<TextView 
+				android:id="@+id/showteam_label2"               
+				android:layout_width="fill_parent"               
+				android:layout_height="wrap_content"               
+				android:text="Players:"
+				/> 
+	<!-- LISTVIEW - REMAINDER OF LAYOUT-->
+	<!--        android:id="@id/android:list"   <== MANDATORY!!! REQUIRED BY LISTACTIVITY! 
+				http://developer.android.com/reference/android/app/ListActivity.html
+					"your own view MUST contain a ListView object with the id "@android:id/list" (or list [android.R.id.list] if it's in code)"
+				-->
+
+	<ListView 
+				android:id="@id/android:list"
+				android:layout_height="wrap_content"               
+				android:layout_width="wrap_content"               
+				/>     
+        <!--android:drawSelectorOnTop="false"-->
+</LinearLayout> 
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+      <TextView 
+	  			android:id ="@+id/team_name"
+                android:layout_span="1"
+                android:text="Midtown TC"
+                android:background="#FF00EE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+</LinearLayout>
+-->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:pax="http://schemas.android.com/apk/res/com.papp"
+	 android:orientation="vertical"
+   android:background="@android:color/white"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+	<LinearLayout 
+		 android:orientation="vertical"
+		 android:id="@+id/nextmatch"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:background="@android:color/black"
+		 android:layout_weight="1"
+		 android:gravity="center">
+		<TableLayout android:layout_width="wrap_content"
+								 android:layout_height="wrap_content">
+			<TableRow>
+				<TextView 
+					 android:id="@+id/club"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Michigan Shores Club"/>
+			</TableRow>
+			<TableRow>
+				<ImageView
+					 android:id="@+id/club_imgview"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:maxWidth="50px"
+					 android:tint="#55ff0000"
+					 android:layout_gravity="left"
+					 android:maxHeight="50px"/>
+				<TableLayout android:layout_width="wrap_content"
+										 android:layout_height="wrap_content">
+					<TableRow>
+						<TextView 
+							 android:layout_gravity="left"
+							 android:layout_weight="0.9"
+							 android:id="@+id/clubaddress1_tfield"
+							 android:singleLine="false"
+							 android:layout_width="wrap_content"
+							 android:layout_height="wrap_content"
+							 android:text="911 Michigan Avenue"/>
+					</TableRow>
+					<TableRow>
+						<TextView 
+							 android:layout_gravity="left"
+							 android:layout_weight="0.9"
+							 android:id="@+id/clubaddress2_tfield"
+							 android:singleLine="false"
+							 android:layout_width="wrap_content"
+							 android:layout_height="wrap_content"
+							 android:text="Wilmette IL"/>
+					</TableRow>
+					<TableRow>
+						<TextView 
+							 android:layout_width="wrap_content"
+							 android:layout_height="wrap_content"
+							 android:text="Club #: (847) 999-9999"/>
+					</TableRow>
+				</TableLayout>
+			</TableRow>
+			<TableRow>
+				<TextView 
+					 android:layout_span="2"
+					 android:id="@+id/matchdate"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Wednesday, Jan. 15 2011"/>
+			</TableRow>
+			<TableRow>
+				<TextView 
+					 android:layout_span="2"
+					 android:id="@+id/matchtime"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Split:  Courts 1/2 @ 7 pm.  Courts 3/4 @ 8 pm"/>
+			</TableRow>
+			<View
+         android:layout_height="2dip"
+         android:background="#FF909090" />
+			<TableRow>
+				<TextView 
+					 android:layout_span="2"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Lost?  Try calling these people for directions"/>
+			</TableRow>
+			<TableRow>
+				<TextView 
+					 android:layout_span="2"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Your Captain Cushman Andrews: "/>
+				<TextView 
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="(312) 111-1111"/>
+			</TableRow>
+			<TableRow>
+				<TextView 
+					 android:layout_span="2"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="Other Captain - John Doe: "/>
+				<TextView 
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:text="(312) 333-3333"/>
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+	<com.papp.Toolbar
+	   android:layout_width="fill_parent"
+		 pax:tab_id="nextmatch"
+	   android:layout_height="70dip"/>
+  
+</LinearLayout>
