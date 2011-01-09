@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.papp"
+  android:versionCode="1"
+  android:versionName="1.0">
+  <application
+     android:icon="@drawable/papp_launcher" 
+     android:label="@string/app_name" 
+     android:debuggable="true">
+    <activity android:name=".NextMatch"
+              android:label="@string/app_name" android:launchMode="singleTask">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".TeamStandings"  android:launchMode="singleTask" />
+    <activity android:name=".YourTeam"  android:launchMode="singleTask" />
+    <activity android:name=".ShowPlayer"  android:launchMode="singleTask" />
+ 	
+    <provider 
+       android:name="MatchesProvider"
+       android:authorities="com.papp.paddleprovider.matches"
+       />
+    <provider android:name="SeriesProvider"
+	      android:authorities="com.papp.paddleprovider.series"
+	      />
+    <provider android:name="PlayerToSeriesProvider"
+	      android:authorities="com.papp.paddleprovider.playertoseries"
+	      />
+    <provider android:name="PlayerProvider"
+	      android:authorities="com.papp.paddleprovider.player"
+	      />
+    <provider android:name="PlayerPicProvider"
+	      android:authorities="com.papp.paddleprovider.playerpic"
+	      />
+    <provider android:name="ClubProvider"
+	      android:authorities="com.papp.paddleprovider.club"
+	      />
+    
+    <activity android:name="PaddleApp"
+	      android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.INSERT" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.item/vnd.jpc.player" />
+      </intent-filter>
+    </activity>
+    
+    <activity android:name="ShowMatch"
+	      android:id="@+id/showmatch_activity"
+	      android:label="">
+      <intent-filter android:label="showmatch_label">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.item/vnd.jpc.match" />
+      </intent-filter>
+    </activity>
+    
+    <activity android:name="ShowTeam"
+	      android:id="@+id/display_team_activity"
+	      android:label="">
+      <intent-filter android:label="display_team_label">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.item/vnd.jpc.team" />
+      </intent-filter>
+    </activity>
+    
+    <activity android:name="ShowPlayer"
+	      android:id="@+id/showplayer_activity"
+	      android:label="">
+      <intent-filter android:label="show_paddle_resume_label">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.item/vnd.jpc.player" />
+      </intent-filter>
+    </activity>
+    
+    <activity android:name="ShowLeague"
+	      android:id="@+id/showleague_activity"
+	      android:label="">
+      <intent-filter android:label="showleague_label">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.item/vnd.jpc.league" />
+      </intent-filter>
+    </activity>
+    
+  </application>
+  <uses-sdk android:minSdkVersion="3" />
+  
+</manifest> 
