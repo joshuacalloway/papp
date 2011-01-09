@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/paddleapp/svn/!svn/ver/103/src/com/papp
+END
+TeamStandings.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/paddleapp/svn/!svn/ver/99/src/com/papp/TeamStandings.java
+END
+Toolbar.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/paddleapp/svn/!svn/ver/98/src/com/papp/Toolbar.java
+END
+League.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/paddleapp/svn/!svn/ver/69/src/com/papp/League.java
+END
+ShowLeague.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paddleapp/svn/!svn/ver/95/src/com/papp/ShowLeague.java
+END
+PlayerPicProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerPicProvider.java
+END
+PlayerToClub.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paddleapp/svn/!svn/ver/70/src/com/papp/PlayerToClub.java
+END
+PlayerToTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerToTeam.java
+END
+PlayerToSeries.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerToSeries.java
+END
+SearchPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paddleapp/svn/!svn/ver/97/src/com/papp/SearchPlayer.java
+END
+Matches.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/paddleapp/svn/!svn/ver/69/src/com/papp/Matches.java
+END
+PlayerToSeriesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerToSeriesProvider.java
+END
+Club.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/paddleapp/svn/!svn/ver/69/src/com/papp/Club.java
+END
+Team.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/paddleapp/svn/!svn/ver/71/src/com/papp/Team.java
+END
+ShowTeam.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/paddleapp/svn/!svn/ver/95/src/com/papp/ShowTeam.java
+END
+PlayerPicAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/paddleapp/svn/!svn/ver/95/src/com/papp/PlayerPicAdapter.java
+END
+Series.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/paddleapp/svn/!svn/ver/69/src/com/papp/Series.java
+END
+PaddleApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paddleapp/svn/!svn/ver/101/src/com/papp/PaddleApp.java
+END
+InstallDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/paddleapp/svn/!svn/ver/69/src/com/papp/InstallDatabase.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/paddleapp/svn/!svn/ver/69/src/com/papp/Player.java
+END
+ShowPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paddleapp/svn/!svn/ver/95/src/com/papp/ShowPlayer.java
+END
+MatchesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/paddleapp/svn/!svn/ver/69/src/com/papp/MatchesProvider.java
+END
+PaddleDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/paddleapp/svn/!svn/ver/86/src/com/papp/PaddleDB.java
+END
+ClubProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paddleapp/svn/!svn/ver/75/src/com/papp/ClubProvider.java
+END
+TeamProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paddleapp/svn/!svn/ver/69/src/com/papp/TeamProvider.java
+END
+Me.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/paddleapp/svn/!svn/ver/69/src/com/papp/Me.java
+END
+SeriesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/paddleapp/svn/!svn/ver/69/src/com/papp/SeriesProvider.java
+END
+PlayerProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerProvider.java
+END
+PaddleAutoCompleteTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/paddleapp/svn/!svn/ver/69/src/com/papp/PaddleAutoCompleteTextView.java
+END
+PlayerPic.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/paddleapp/svn/!svn/ver/69/src/com/papp/PlayerPic.java
+END
+NextMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paddleapp/svn/!svn/ver/103/src/com/papp/NextMatch.java
+END
+ShowMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/paddleapp/svn/!svn/ver/95/src/com/papp/ShowMatch.java
+END
