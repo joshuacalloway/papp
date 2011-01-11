@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/teamstandings_item">
+    <TextView 
+      android:id="@+id/teamstandings_item_club"               
+      android:layout_width="fill_parent"               
+      android:layout_height="wrap_content"               
+      android:text="Skokie"/> 
+    <TextView
+      android:id="@+id/teamstandings_item_wins"               
+      android:layout_width="fill_parent"               
+      android:layout_height="wrap_content"               
+      android:text="12 W"/>
+    <TextView
+      android:id="@+id/teamstandings_item_losses"               
+      android:layout_width="fill_parent"               
+      android:layout_height="wrap_content"               
+      android:text="0 W"/>
+    <TextView
+      android:id="@+id/teamstandings_item_pts"               
+      android:layout_width="fill_parent"               
+      android:layout_height="wrap_content"               
+      android:text="35"/>
+    <TextView
+      android:id="@+id/teamstandings_item_ptsa"               
+      android:layout_width="fill_parent"               
+      android:layout_height="wrap_content"               
+      android:text="10"/>
+  </TableRow>
