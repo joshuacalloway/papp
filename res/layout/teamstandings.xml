@@ -1,47 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
-	 xmlns:android="http://schemas.android.com/apk/res/android"
-   android:orientation="vertical"
-	 xmlns:pax="http://schemas.android.com/apk/res/com.papp"
-   android:background="@android:color/black"
-   android:layout_width="fill_parent"
-   android:layout_height="fill_parent">
-  
-	<LinearLayout 
-		 android:orientation="vertical"         
-		 android:layout_width="fill_parent"         
-		 android:layout_height="wrap_content"
-		 android:layout_weight="1"
-		 android:gravity="center">
-		<!-- TOP SECTION - LISTVIEW NOT IN THIS PART -->
-		<TextView 
-				android:id="@+id/teamstandings_label"               
-				android:layout_width="fill_parent"               
-				android:layout_height="wrap_content"               
-				android:text="From res"
-				/> 
-	<TextView 
-				android:id="@+id/teamstandings_label2"               
-				android:layout_width="fill_parent"               
-				android:layout_height="wrap_content"               
-				android:text="Players:"
-				/> 
-	<!-- LISTVIEW - REMAINDER OF LAYOUT-->
-	<!--        android:id="@id/android:list"   <== MANDATORY!!! REQUIRED BY LISTACTIVITY! 
-				http://developer.android.com/reference/android/app/ListActivity.html
-					"your own view MUST contain a ListView object with the id "@android:id/list" (or list [android.R.id.list] if it's in code)"
-				-->
-
-	<ListView 
-				android:id="@id/android:list"
-				android:layout_height="wrap_content"               
-				android:layout_width="wrap_content"               
-				/>     
-        <!--android:drawSelectorOnTop="false"-->
-</LinearLayout> 
-    
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  xmlns:pax="http://schemas.android.com/apk/res/com.papp"
+  android:background="@android:color/black"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TableLayout 
+    android:orientation="vertical"         
+    android:layout_width="fill_parent"         
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center">
+    <TableRow>
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Series XIX(M)"/> 
+    </TableRow>
+    <TableRow>
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Club"/> 
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Wins"/> 
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Losses"/> 
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Pts For"/> 
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Pts Against"/> 
+    </TableRow>
+    <TableRow>
+      <TextView 
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Skokie"/> 
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="12 W"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="0 W"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="35"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="10"/>
+    </TableRow>
+    <TableRow>
+      <TextView 
+	android:id="@+id/teamstandings_label2"               
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="Midtown TC"/> 
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="9 W"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="3 W"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="28"/>
+      <TextView
+        android:layout_width="fill_parent"               
+        android:layout_height="wrap_content"               
+        android:text="10"/>
+    </TableRow>
+  </TableLayout> 
   <com.papp.Toolbar
-	   android:layout_width="fill_parent"
-		 pax:tab_id="teamstandings"
-	   android:layout_height="70dip"/>
+    android:layout_width="fill_parent"
+    pax:tab_id="teamstandings"
+    android:layout_height="70dip"/>
 </LinearLayout>
