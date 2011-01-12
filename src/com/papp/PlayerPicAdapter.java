@@ -133,6 +133,6 @@ public class PlayerPicAdapter extends SimpleCursorAdapter {
     i.setBackgroundResource(galleryItemBackground);
     return i;
   }
-	public final static int GALLERY_HEIGHT=200;
-	public final static int GALLERY_WIDTH=200;
+	public final static int GALLERY_HEIGHT=100;
+	public final static int GALLERY_WIDTH=100;
 }
