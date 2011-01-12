@@ -11,17 +11,30 @@
      android:orientation="vertical"
      android:id="@+id/nextmatch"
      android:layout_width="fill_parent"
-     android:layout_height="wrap_content"
+     android:layout_height="fill_parent"
      android:background="@android:color/black"
      android:layout_weight="1"
-     android:gravity="center">
+     android:gravity="top">
     <TableLayout android:layout_width="wrap_content"
 		 android:layout_height="wrap_content">
       <TableRow>
 	<TextView 
-	   android:id="@+id/club"
+	   android:layout_span="3"
+	   android:id="@+id/matchdate"
+           android:textSize="26sp"
+           android:textColor="#cceedd99"
 	   android:layout_width="wrap_content"
 	   android:layout_height="wrap_content"
+	   android:text="Wednesday, Jan. 15 2011"/>
+      </TableRow>
+      <TableRow>
+	<TextView 
+	   android:id="@+id/club"
+	   android:layout_span="3"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+           android:textSize="24sp"
+           android:textColor="#ffeedd99"
 	   android:text="Michigan Shores Club"/>
       </TableRow>
       <TableRow>
@@ -43,6 +56,8 @@
 	       android:singleLine="false"
 	       android:layout_width="wrap_content"
 	       android:layout_height="wrap_content"
+               android:textColor="#cc00ff22"
+               android:textSize="20sp"
 	       android:text="911 Michigan Avenue"/>
 	  </TableRow>
 	  <TableRow>
@@ -53,6 +68,7 @@
 	       android:singleLine="false"
 	       android:layout_width="wrap_content"
 	       android:layout_height="wrap_content"
+               android:textSize="18sp"
 	       android:text="Wilmette IL"/>
 	  </TableRow>
 	  <TableRow>
@@ -62,14 +78,6 @@
 	       android:text="Club #: (847) 999-9999"/>
 	  </TableRow>
 	</TableLayout>
-      </TableRow>
-      <TableRow>
-	<TextView 
-	   android:layout_span="2"
-	   android:id="@+id/matchdate"
-	   android:layout_width="wrap_content"
-	   android:layout_height="wrap_content"
-	   android:text="Wednesday, Jan. 15 2011"/>
       </TableRow>
       <TableRow>
 	<TextView 
