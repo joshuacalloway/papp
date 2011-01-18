@@ -121,9 +121,5 @@
       </TableRow>
     </TableLayout>
   </LinearLayout>
-  <com.papp.Toolbar
-     android:layout_width="fill_parent"
-     pax:tab_id="nextmatch"
-     android:layout_height="70dip"/>
-  
+
 </LinearLayout>

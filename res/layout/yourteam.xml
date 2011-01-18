@@ -74,8 +74,4 @@
       </TextSwitcher>
     </TableRow>
   </TableLayout>
-  <com.papp.Toolbar
-     android:layout_width="fill_parent"
-     pax:tab_id="yourteam"
-     android:layout_height="70dip"/>
 </LinearLayout>

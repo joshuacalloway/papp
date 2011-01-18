@@ -7,14 +7,8 @@
      android:icon="@drawable/papp_launcher" 
      android:label="@string/app_name" 
      android:debuggable="true">
-    <activity android:name=".NextMatch"
-              android:label="@string/app_name" android:launchMode="singleTask">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
 
+    <activity android:name=".NextMatch"  android:launchMode="singleTask" />
     <activity android:name=".TeamStandings"  android:launchMode="singleTask" />
     <activity android:name=".YourTeam"  android:launchMode="singleTask" />
     <activity android:name=".ShowPlayer"  android:launchMode="singleTask" />
