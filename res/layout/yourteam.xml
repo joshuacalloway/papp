@@ -6,72 +6,10 @@
    android:background="@android:color/white"
    android:layout_width="fill_parent"
    android:layout_height="fill_parent">
-  
-  <TableLayout 
-     android:layout_height="wrap_content" 
-     android:layout_width="fill_parent"
-     android:gravity="center"
-     android:layout_weight="1"
-     android:orientation="vertical"
-     android:background="#000044">
-    <TableRow> 
-      <Spinner android:id="@+id/club"
-	       android:layout_span="1"
-	       android:drawSelectorOnTop="false"
-	       android:width="200px"
-	       android:layout_width="wrap_content"
-	       android:layout_height="wrap_content"
-	       android:background="#FF00EE"
-	       android:typeface="serif"/>
-      <TextView android:text="series "
-		android:layout_span="1"
-		android:width="50px"
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:layout_marginLeft="5dp"/>
-      <Spinner android:id="@+id/series"
-	       android:layout_span="1"
-	       android:drawSelectorOnTop="false"
-	       android:width="50px"
-               android:layout_height="50px"
-	       android:background="#CCDDAA"
-	       android:typeface="serif"/>
-    </TableRow>
-    <TableRow> 
-      <Gallery android:layout_span="4"
-	       android:id="@+id/picgallery"
-	       android:width="50px"
-	       android:gravity="center"
-	       android:layout_height="wrap_content"
-	       android:layout_width="wrap_content"
-	       android:height="50px"/>
-    </TableRow>
-    <TableRow>
-      <TextSwitcher android:id="@+id/name"
-		    android:layout_span="3"
-		    android:layout_height="wrap_content"
-		    android:width="500px"
-		    android:layout_width="fill_parent"
-		    android:layout_marginLeft="5dp"/>
-      <TextSwitcher android:id="@+id/captain_tfield"
-		    android:layout_span="1"
-		    android:layout_height="wrap_content"
-		    android:width="120px"
-		    android:layout_width="wrap_content"
-		    android:layout_marginLeft="5dp"/>
-    </TableRow>
-    <TableRow>
-      <TextSwitcher
-	 android:id="@+id/summary"
-	 android:layout_span="4"
-	 android:layout_height="wrap_content"
-	 android:layout_width="fill_parent"
-	 android:layout_marginLeft="50dp">
-	<TextView 
-	   android:text="win:8 loses:2 point:24 allowed:7"
-	   android:layout_width="fill_parent"
-  	   android:layout_height="wrap_content"/>
-      </TextSwitcher>
-    </TableRow>
-  </TableLayout>
+  <ListView
+     android:layout_width="100dip"
+     android:layout_height="120dip"
+     android:background="#FF0000"
+     android:id="@+id/yourteamscrollview"/>
+
 </LinearLayout>

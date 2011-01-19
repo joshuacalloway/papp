@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">PaddleApp</string>
-  <string name="version">PaddleApp, version chi-0.35</string>
+  <string name="version">PaddleApp, version chi-0.36</string>
   <string name="captains_query">select * from captains where player_id = ?</string>
   <string name="nextmatch">Next Match</string>
 </resources>
