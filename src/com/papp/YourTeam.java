@@ -55,11 +55,11 @@ public class YourTeam extends ListActivity {
             return position;
         }
 	
-    @Override public View getView (int position, View convertView, ViewGroup parent) {
+	@Override public View getView (int position, View convertView, ViewGroup parent) {
 	    Player player = players.get(position);
 	    LinearLayout l = new LinearLayout(c);
 	    ImageView i = new ImageView(c);
-	    Bitmap resized = resizeImage( R.drawable.joshua_calloway);
+	    Bitmap resized = resizeImage( PlayerPicAdapter.getImageIdFromPlayerId(player.getId()));
 	    BitmapDrawable bmd = new BitmapDrawable(resized);
 	    i.setImageDrawable(bmd);
 	    i.setScaleType(ScaleType.FIT_XY);
@@ -111,15 +111,25 @@ public class YourTeam extends ListActivity {
 	Player player = new Player();
 	// addPlayer(scroll, player);
 	player.setName("Roopak Chakavarty");
+	player.setId(5);
 	addPlayer(player);
 
 	player.setName("Cushman Andrews");
+	player.setId(20);
+
 	addPlayer(player);
 
 	player.setName("Mike Gardner");
+	player.setId(20);
+
 	addPlayer(player);
 
 	player.setName("Mike Turner");
+	player.setId(20);
+	addPlayer(player);
+
+	player.setName("Joshua Calloway");
+	player.setId(3);
 	addPlayer(player);
 
 	// player.setName("Jason McCabe");
