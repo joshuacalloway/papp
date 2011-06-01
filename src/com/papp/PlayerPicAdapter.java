@@ -57,6 +57,9 @@ public class PlayerPicAdapter extends SimpleCursorAdapter {
 
   }
 
+    static {
+	initMap();
+    }
   public static int getImageIdFromPlayerId(int playerid) {
     return playeridsToImageIds.get(playerid);
   }
@@ -101,7 +104,7 @@ public class PlayerPicAdapter extends SimpleCursorAdapter {
   public PlayerPicAdapter(Context context, int layout, Cursor c, String[] from, int[] to) {
     super(context, layout, c, from, to);
     this.ctx = context;
-    initMap();
+    
     resetWithCursor(c);
 
     TypedArray a = ctx.obtainStyledAttributes(R.styleable.PaddleApp);
