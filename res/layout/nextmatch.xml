@@ -98,28 +98,37 @@
 	   android:text="Lost?  Try calling these people for directions"/>
       </TableRow>
       <TableRow>
-	<TextView 
-	   android:layout_span="2"
-	   android:layout_width="wrap_content"
-	   android:layout_height="wrap_content"
-	   android:text="Your Captain Cushman Andrews: "/>
-	<TextView 
-	   android:layout_width="wrap_content"
-	   android:layout_height="wrap_content"
-	   android:text="(312) 111-1111"/>
+	<RelativeLayout>
+	  <TextView 
+	     android:id="@+id/captain_label"
+	     android:layout_span="2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="Your Captain: "/>
+	  <TextView 
+	     android:id="@+id/captain_phonenumber"
+	     android:layout_below="@+id/captain_label"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text=""/>
+	</RelativeLayout>
       </TableRow>
       <TableRow>
-	<TextView 
-	   android:layout_span="2"
-	   android:layout_width="wrap_content"
-	   android:layout_height="wrap_content"
-	   android:text="Other Captain - John Doe: "/>
-	<TextView 
-	   android:layout_width="wrap_content"
-	   android:layout_height="wrap_content"
-	   android:text="(312) 333-3333"/>
+	<RelativeLayout>
+	  <TextView 
+	     android:id="@+id/other_captain_label"
+	     android:layout_span="2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="Other Captain: "/>
+	  <TextView 
+	     android:id="@+id/other_captain_phonenumber"
+	     android:layout_below="@+id/other_captain_label"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text=""/>
+	</RelativeLayout>
       </TableRow>
     </TableLayout>
   </LinearLayout>
-
 </LinearLayout>
